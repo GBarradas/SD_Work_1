@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8607fd41-88d2-4c5b-a722-ce781f8727b3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RoomRent/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RoomRent/schoolGrades.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RoomRent/src/main/java/roomrent/rmi/ClienteGeral.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RoomRent/src/main/java/roomrent/rmi/ClienteGestao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RoomRent/src/main/java/roomrent/rmi/Server.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RoomRent/src/main/java/roomrent/rmi/bd.properties" beforeDir="false" />
-    </list>
+    <list default="true" id="8607fd41-88d2-4c5b-a722-ce781f8727b3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +26,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/barradas/Desktop/SD_Work_1/RoomRent",
+    "last_opened_file_path": "/home/barradas/Desktop/SD_Work_1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,6 +43,7 @@
       <updated>1668967521534</updated>
       <workItem from="1668967523034" duration="52000" />
       <workItem from="1668992578173" duration="1015000" />
+      <workItem from="1669000232825" duration="12000" />
     </task>
     <servers />
   </component>
