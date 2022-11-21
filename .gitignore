@@ -21,3 +21,12 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/RoomRent/target/
+/RoomRentt/nbproject/private/
+/1/target/
+/RoomRent/nbproject/private/
+/RoomRent/build/
+/RoomRent/dist/
+/1/build/
+/1/dist/
+/1/nbproject/private/
