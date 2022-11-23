@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8607fd41-88d2-4c5b-a722-ce781f8727b3" name="Changes" comment="" />
+    <list default="true" id="8607fd41-88d2-4c5b-a722-ce781f8727b3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <list id="8d0e2fe4-0c51-45c3-b990-8289288d0f03" name="Changes by andre" comment="">
+      <change beforePath="$PROJECT_DIR$/RoomRent/src/sd/roomrent/ClienteGeral.java" beforeDir="false" afterPath="$PROJECT_DIR$/RoomRent/src/sd/roomrent/ClienteGeral.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +31,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/barradas/Desktop/SD_Work_1",
+    "last_opened_file_path": "/home/barradas/Desktop/SD_Work_1/RoomRent",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -44,6 +49,8 @@
       <workItem from="1668967523034" duration="52000" />
       <workItem from="1668992578173" duration="1015000" />
       <workItem from="1669000232825" duration="12000" />
+      <workItem from="1669131160009" duration="41000" />
+      <workItem from="1669135456606" duration="819000" />
     </task>
     <servers />
   </component>

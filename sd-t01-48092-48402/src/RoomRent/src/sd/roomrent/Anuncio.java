@@ -1,25 +1,28 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package sd.roomrent;
 
+import java.text.DecimalFormat;
 import java.util.Date;
 
 /**
  *
  * @author barradas
  */
-public class Anuncio {
+
+/*
+* class que respresenta um anuncio
+*/
+public class Anuncio implements java.io.Serializable
+{
     private String tipo;
     private String estado;
     private String genero;
-    String zona;
+    private String zona;
     private String anunciante;
     private String tipologia;
     private int aid;
-    Date data;
-    Double preco;
+    private Date data;
+    private Double preco;
 
     public Anuncio(String tipo, String estado, String anunciante, double preco, String genero, String zona, int aid, Date data, String tipologia){
         this.tipo = tipo;
@@ -97,5 +100,23 @@ public class Anuncio {
     }
     public String getTipologia(){
         return this.tipologia;
+    }
+
+    @Override
+    public String toString(){
+        DecimalFormat df = new DecimalFormat("#,##0.00€");
+
+        String p = "-------------------------------------------------------\n" +
+                "\t Aid: "+ aid + "\n"+
+                "\t Tipo: " + tipo + "\n"+
+                "\t Estado: "+ estado + "\n"+
+                "\t Genero: " + genero+   "\n"+
+                "\t Zona: " + zona + "\n"+
+                "\t Anunciante:  "+ anunciante + "\n"+
+                "\t Tipologia: "+ tipologia + "\n"+
+                "\t Data: " + data + "\n"+
+                "\t Preço: "+ df.format(preco) + "\n";
+
+        return p;
     }
 }

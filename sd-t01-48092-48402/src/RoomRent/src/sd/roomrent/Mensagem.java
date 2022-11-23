@@ -4,18 +4,29 @@
  */
 package sd.roomrent;
 
+import java.util.Date;
+
 /**
  *
  * @author barradas e baião
  */
-public class Mensagem {
+public class Mensagem implements java.io.Serializable
+{
     private int aid;
     private String remetente;
     private String msg;
-    public Mensagem(int aid, String remetente, String msg){
+    private Date data;
+    public Mensagem(int aid, String remetente, String msg,Date data){
         this.aid = aid;
         this.remetente = remetente;
         this.msg = msg;
+        this.data = data;
+    }
+    public Mensagem(){
+        this.aid = -1;
+        this.remetente = null;
+        this.msg = null;
+        this.data = null;
     }
     public void setAid (int aid ){
         this.aid = aid;
@@ -26,6 +37,9 @@ public class Mensagem {
     public void setMsg(String msg){
         this.msg = msg;
     }
+    public void setDate(Date d){
+        this.data = d;
+    }
     public int getAid (){
         return this.aid;
     }
@@ -34,5 +48,11 @@ public class Mensagem {
     }
     public String getMsg (){
         return this.msg;
+    }
+
+    @Override
+    public String toString(){
+        return "-------------------------------------------------------------------------------\n     "
+                +remetente+"("+data+"): " +msg+";";
     }
 }
